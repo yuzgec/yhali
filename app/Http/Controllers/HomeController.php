@@ -20,7 +20,12 @@ class HomeController extends Controller
     }
 
     public function reference(){
-        SEOMeta::setTitle('Referanslarıımız');
+        SEOMeta::setCanonical(url()->full());
+        return view('frontend.page.reference');
+    }
+
+    public function price(){
+        SEOMeta::setTitle('Karşıyaka Koltuk Yıkama Fiyatları | Yıldırım Koltuk Yıkama');
         SEOMeta::setCanonical(url()->full());
 
         return view('frontend.page.reference');

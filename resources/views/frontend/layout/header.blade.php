@@ -27,7 +27,7 @@
                                                 @endforeach
                                             </ul>
                                         </li>
-                                        <li><a href="{{ route('home') }}" class="nav-link">Fiyatlarımız</a></li>
+                                        <li><a href="{{ route('corporatedetail', 'fiyatlarimiz') }}" class="nav-link">Fiyatlarımız</a></li>
                                         <li><a href="{{ route('contactus') }}" class="nav-link">İletişim</a></li>
                                     </ul>
                                     <ul class="header-social-icons social-icons social-icons-clean social-icons-medium position-relative right-7 d-none d-md-block ms-0">

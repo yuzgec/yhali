@@ -15,6 +15,7 @@ Route::get('/makaleler', [HomeController::class, 'blog'])->name('blog');
 Route::get('/makale/{url}', [HomeController::class, 'blogdetail'])->name('blogdetail');
 Route::get('/sss', [HomeController::class, 'sss'])->name('sss');
 Route::get('/video-galeri', [HomeController::class, 'video'])->name('video');
+Route::get('/koltuk-yikama-fiyatlari', [HomeController::class, 'price'])->name('price');
 Route::get('/referanslarimiz', [HomeController::class, 'reference'])->name('reference');
 Route::post('/form', [HomeController::class, 'form'])->name('form');
 
