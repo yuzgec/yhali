@@ -35,7 +35,7 @@
                             <h3 class="text-color-primary font-weight-bold text-4 pb-1 mb-4">{{ $Detail->title }} FiYATLARI</h3>
                             <div class="d-flex justify-content-center ">
                                 <div class="price font-weight-bold text-color-dark" style="font-size:40px">
-                                    {{ $Detail->seo_key }}₺
+                                    <span style="font-size:13px">{{ ($Detail->id == 7) ? 'm²' : 'Adet' }}</span>{{ $Detail->seo_key }}₺
                                 </div>
                                 <div>
                                     <del><span style="font-size:20px">{{ round(($Detail->seo_key * 25) / 100  + $Detail->seo_key) }}₺</span></del>
