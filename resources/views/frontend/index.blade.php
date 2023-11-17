@@ -188,18 +188,18 @@
                         Karşıyaka Yıldırım Koltuk Yıkama ile koltuklarınız ilk günkü gibi temiz ve taze kalacak. Evlerinizde ve iş yerlerinizde hijyenik ve sağlıklı bir ortam yaratmak için bizimle iletişime geçin. Yıldırım Koltuk Yıkama, Karşıyaka'nın en iyi koltuk temizliği deneyimini sizlere sunmak için burada!
                     </p>
 
-                    <a href="{{ route('home') }}" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation"
-                       data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800">Devamını Oku</a>
+                    <a href="{{ route('corporatedetail', 'hakkimizda') }}" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation"
+                       data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1800" title="Karşıyaka Yıldırım Koltuk Yıkama">Devamını Oku</a>
                 </div>
                 <div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
                     <div class="position-relative">
                         <div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-                            <img src="hakkimizda2.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="" />
+                            <img src="hakkimizda2.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1800" alt="Karşıyaka Yıldırım Koltuk Yıkama" />
                         </div>
                         <div class="position-absolute top-50pct left-50pct transform3dxy-n50" style="left: 30%;">
                             <div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.3, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
                                 <img src="hakkimizda1.jpg" class="img-fluid rounded-circle custom-box-shadow-1 appear-animation" data-appear-animation="fadeInLeftShorter"
-                                     data-appear-animation-delay="1400" alt="" />
+                                     data-appear-animation-delay="1400" alt="Karşıyaka Yıldırım Koltuk Yıkama" />
                             </div>
                         </div>
                     </div>
