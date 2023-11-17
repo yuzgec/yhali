@@ -23,7 +23,7 @@
             <div class="col-lg-8">
 
                 <h2 class="font-weight-bold text-color-dark">- İletişime Geç</h2>
-                <form class="contact-form custom-contact-form-style-1" action="{{ route('form') }}" method="POST">
+                <form class="contact-form custom-contact-form-style-1" id="form" action="{{ route('form') }}" method="POST">
                     @csrf
 
                     <div class="row">

@@ -69,7 +69,7 @@
                     <div class="card-body p-5">
                         <h2 class="text-color-dark font-weight-bold text-7 line-height-1 mb-1">HIZLI İLETİŞİM FORMU</h2>
                         <p class="custom-font-secondary text-4 pb-1 mb-4">Aşağıdaki formu doldurun hemen sizi arayalım.</p>
-                        <form class="contact-form custom-form-style-1" action="" method="POST">
+                        <form class="contact-form custom-form-style-1" id="form" action="{{ route('form') }}" method="POST">
                             @csrf
                             <div class="contact-form-success alert alert-success d-none mt-4">
                                 <strong>Success!</strong> Your request has been sent to us.
@@ -81,15 +81,23 @@
                             </div>
 
                             <div class="row">
-                                <div class="form-group col pb-1 mb-3">
-                                    <input type="text" value="{{ old('name') }}"  class="form-control" name="name" placeholder="Adınız Soyadınız">
+                                <div class="form-group col mb-3">
+                                    <input type="text" value="{{ old('name') }}" class="form-control @if($errors->has('name')) is-invalid @endif" name="name" placeholder="Adınız Soyadınız *">
+                                    @if($errors->has('name'))
+                                        <div class="invalid-feedback">{{$errors->first('name')}}</div>
+                                    @endif
                                 </div>
                             </div>
+
                             <div class="row">
-                                <div class="form-group col pb-1 mb-3">
-                                    <input type="text" value="{{ old('phone') }}"  class="form-control " name="phone" placeholder="Telefon Numaranız">
+                                <div class="form-group col mb-3">
+                                    <input type="text" value="{{ old('phone') }}" class="@if($errors->has('phone')) is-invalid @endif form-control" name="phone"  placeholder="Telefon *">
+                                    @if($errors->has('name'))
+                                        <div class="invalid-feedback">{{$errors->first('phone')}}</div>
+                                    @endif
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="form-group col">
                                     <button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation animated fadeInUpShorter appear-animation-visible"
