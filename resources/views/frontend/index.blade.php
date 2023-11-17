@@ -296,10 +296,38 @@
                            data-appear-animation="fadeInRightShorter" data-appear-animation-delay="550">RANDEVU OLUŞTUR</a>
                     </div>
                 </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section border-0 py-4 m-0">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="font-weight-bold text-center">KARŞIYAKA YILDIRIM KOLTUK YIKAMA - YERİNDE KALİTELİ HİZMET</h2>
+
+                    <img src="/koltuk-yikama-karsiyaka.jpg" alt="Koltuk Yıkama Karşıyaka" class="img-fluid mb-3 mt-3"/>
+                    <p>İzmir&#39;in Karşıyaka, &Ccedil;iğli, Menemen, Bayraklı, Bornova ve Konak il&ccedil;elerinde yaşayanlar, evlerinizin hijyenini ve sağlığınızı d&uuml;ş&uuml;n&uuml;yorsanız, koltuklarınızın profesyonel bir yıkama firması tarafından temizlenmesi b&uuml;y&uuml;k &ouml;nem taşır. Koltuklar, g&uuml;nl&uuml;k yaşantımızda en &ccedil;ok kullanılan mobilyalardan biri olduğu i&ccedil;in, d&uuml;zenli olarak derinlemesine temizlenmeleri gerekmektedir.</p>
+
+                    <p><strong>Neden Profesyonel Koltuk Yıkama?</strong></p>
+
+                    <ul>
+                        <li><strong>Sağlık ve Hijyen:</strong> Koltuklarınızda biriken toz, kir ve alerjenler, solunum yolu hastalıkları ve alerjik reaksiyonlara neden olabilir. Profesyonel yıkama, bu unsurları etkili bir şekilde temizleyerek, sağlıklı bir yaşam alanı oluşturur.</li>
+                        <li><strong>Uzun &Ouml;m&uuml;rl&uuml; Mobilyalar:</strong> D&uuml;zenli yıkama, koltuklarınızın &ouml;mr&uuml;n&uuml; uzatır. Profesyonel ekipmanlar ve doğru temizlik y&ouml;ntemleri, mobilyalarınızın kumaşına zarar vermeden temizlik sağlar.</li>
+                        <li><strong>G&ouml;r&uuml;n&uuml;m ve Tazelik:</strong> Profesyonel temizlik, koltuklarınızın g&ouml;r&uuml;n&uuml;m&uuml;n&uuml; yeniler ve hoş olmayan kokuları giderir.</li>
+                    </ul>
+
+                    <p><strong>İzmir&#39;in Her Noktasında Kaliteli Hizmet</strong></p>
+
+                    <p>İzmir&#39;in Karşıyaka, &Ccedil;iğli, Menemen, Bayraklı, Bornova ve Konak il&ccedil;elerinde, evinizin konforunu ve sağlığını korumak i&ccedil;in profesyonel koltuk yıkama hizmetleri sunuyoruz. Alanında uzman ekibimizle, her t&uuml;rl&uuml; koltuk ve mobilya tipine uygun, &ccedil;evre dostu ve sağlığa zarar vermeyen temizlik &ccedil;&ouml;z&uuml;mleri sağlıyoruz.</p>
+
+                </div>
             </div>
         </div>
     </section>
-
 @endsection
 
 
