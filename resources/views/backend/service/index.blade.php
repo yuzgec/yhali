@@ -148,7 +148,7 @@
                         </th>
                     </tr>
                     </tfoot>
-                    <tbody>
+                    <tbody id="orders">
 
                     @foreach($Kategori  as $item)
                         <tr id="page_{{$item->id}}">
