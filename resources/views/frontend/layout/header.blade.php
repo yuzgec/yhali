@@ -12,8 +12,8 @@
                 </div>
                 <div class="header-column justify-content-end">
                     <div class="header-row">
-                        <div class="header-nav header-nav-links">
-                            <div class="header-nav-main header-nav-main-text-capitalize header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                        <div class="header-nav justify-content-start header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1">
+                            <div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a href="{{ route('home') }}" class="nav-link active">Anasayfa</a></li>
@@ -30,10 +30,7 @@
                                         <li><a href="{{ route('corporatedetail', 'fiyatlarimiz') }}" class="nav-link">Fiyatlarımız</a></li>
                                         <li><a href="{{ route('contactus') }}" class="nav-link">İletişim</a></li>
                                     </ul>
-                                    <ul class="header-social-icons social-icons social-icons-clean social-icons-medium position-relative right-7 d-none d-md-block ms-0">
-                                        <li class="social-icons-instagram"><a href="http://www.instagram.com/{{ config('settings.instagram') }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="social-icons-facebook"><a href="http://www.facebook.com/{{ config('settings.facebook') }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    </ul>
+
                                     <div class="feature-box feature-box-style-2 align-items-center ms-lg-4">
                                         <div class="feature-box-icon d-none d-sm-inline-flex">
                                             <div class="animated-icon animated fadeIn svg-fill-color-dark position-relative bottom-3">
