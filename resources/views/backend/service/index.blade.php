@@ -151,7 +151,7 @@
                     <tbody>
 
                     @foreach($Kategori  as $item)
-                        <tr>
+                        <tr id="page_{{$item->id}}">
                             <td>
                                 <span class="avatar me-2" style="background-image: url({{ (!$item->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('page')}})"></span>
                             </td>
