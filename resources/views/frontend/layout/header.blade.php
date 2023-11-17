@@ -17,7 +17,7 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a href="{{ route('home') }}" class="nav-link active">Anasayfa</a></li>
-                                        <li><a href="{{ route('home') }}" class="nav-link">Hakkımızda</a></li>
+                                        <li><a href="{{ route('corporatedetail', 'hakkimizda') }}" class="nav-link">Hakkımızda</a></li>
                                         <li class="dropdown dropdown-primary">
                                             <a class="dropdown-toggle nav-link" href="{{ route('service') }}">
                                                 Hizmetlerimiz<i class="fas fa-chevron-down"></i></a>

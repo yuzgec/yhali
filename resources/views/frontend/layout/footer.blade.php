@@ -11,7 +11,7 @@
                     <nav>
                         <ul class="nav" id="footerNav">
                             <li><a href="{{ route('home') }}" class="text-white">Anasayfa</a></li>
-                            <li><a href="{{ route('home') }}" class="text-white">Hakkımızda</a></li>
+                            <li><a href="{{ route('corporatedetail', 'hakkimizda') }}" class="text-white">Hakkımızda</a></li>
                             <li><a href="{{ route('service') }}" class="text-white">Hizmetlerimiz</a></li>
                             <li><a href="{{ route('home') }}" class="text-white">Fiyatlarımız</a></li>
                             <li><a href="{{ route('home') }}" class="text-white">Bölgelerimiz</a></li>
